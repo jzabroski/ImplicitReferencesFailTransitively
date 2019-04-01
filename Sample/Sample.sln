@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{083BB5E1-8A7E-4739-8AD8-3097D26A5C9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{5AAD0F53-DC67-445A-93A8-45D35B8030C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{F70BAEE9-8EF8-4068-93E9-8B6B24C81D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Tests", "WebApi.Tests\WebApi.Tests.csproj", "{C4135E04-DA33-4B29-B923-0F7E82C99B09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{083BB5E1-8A7E-4739-8AD8-3097D26A5C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083BB5E1-8A7E-4739-8AD8-3097D26A5C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083BB5E1-8A7E-4739-8AD8-3097D26A5C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083BB5E1-8A7E-4739-8AD8-3097D26A5C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4135E04-DA33-4B29-B923-0F7E82C99B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4135E04-DA33-4B29-B923-0F7E82C99B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4135E04-DA33-4B29-B923-0F7E82C99B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4135E04-DA33-4B29-B923-0F7E82C99B09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{083BB5E1-8A7E-4739-8AD8-3097D26A5C9B} = {5AAD0F53-DC67-445A-93A8-45D35B8030C6}
+		{C4135E04-DA33-4B29-B923-0F7E82C99B09} = {F70BAEE9-8EF8-4068-93E9-8B6B24C81D5D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C885E54F-4629-45E0-BAB8-432504A393E1}
+	EndGlobalSection
+EndGlobal
